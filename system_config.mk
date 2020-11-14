@@ -61,7 +61,7 @@ FPGA_DDR_ADDR_W ?=30
 
 #default board
 BOARD ?=CYCLONEV-GT-DK
-
+BOARD ?=
 #Boards for which the FPGA compiler is installed in host
 #LOCAL_FPGA_LIST=CYCLONEV-GT-DK AES-KU040-DB-G
 
