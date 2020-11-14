@@ -60,14 +60,14 @@ SIM_LIST:=icarus ncsim
 FPGA_DDR_ADDR_W ?=30
 
 #default board
-BOARD ?=CYCLONEV-GT-DK
+BOARD ?=AES-KU040-DB-G
 
 #Boards for which the FPGA compiler is installed in host
-#LOCAL_FPGA_LIST=CYCLONEV-GT-DK AES-KU040-DB-G
+LOCAL_FPGA_LIST=CYCLONEV-GT-DK AES-KU040-DB-G
 
 #boards installed host
 #LOCAL_BOARD_LIST=CYCLONEV-GT-DK
-#LOCAL_BOARD_LIST=AES-KU040-DB-G
+LOCAL_BOARD_LIST=AES-KU040-DB-G
 
 #set according to FPGA board
 ifeq ($(BOARD),AES-KU040-DB-G)
