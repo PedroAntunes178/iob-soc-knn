@@ -15,7 +15,7 @@ FIRM_ADDR_W ?=14
 #SRAM SIZE (LOG2)
 SRAM_ADDR_W ?=14
 
-#DDR 
+#DDR
 USE_DDR ?=0
 RUN_DDR ?=0
 
@@ -85,7 +85,7 @@ else #default; ifeq ($(BOARD),CYCLONEV-GT-DK)
 endif
 
 #board list for testing
-BOARD_LIST ?=CYCLONEV-GT-DK AES-KU040-DB-G 
+BOARD_LIST ?=CYCLONEV-GT-DK AES-KU040-DB-G
 
 
 #
